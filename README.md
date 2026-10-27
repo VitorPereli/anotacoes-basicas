@@ -12,7 +12,9 @@ Serve para guardar metadados: informações sobre a página que o usuário não 
 
 É onde fica todo o conteúdo visível do seu site: textos, imagens, vídeos, formulários e botões. Tudo o que o usuário interage na tela está dentro do <body>.
 
-<h1> (Título Principal)
+
+
+// <h1> (Título Principal)
 
 Pertence à família de tags de títulos (<h1> até <h6>).
 
