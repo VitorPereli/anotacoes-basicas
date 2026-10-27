@@ -47,5 +47,3 @@ O conteúdo pode mudar em tempo real dependendo de quem acessa, do horário ou d
 Ela utiliza linguagens de programação no servidor (como Node.js, Python, PHP) e bancos de dados para gerar o HTML na hora em que a página é solicitada.
 
 Exemplo: Redes sociais (Instagram, Twitter), sites de notícias, lojas virtuais (onde os produtos mudam) e plataformas de streaming (como Netflix).
-
-Gostaria de ver um exemplo prático de código HTML juntando essas tags para você visualizar como elas funcionam juntas?
