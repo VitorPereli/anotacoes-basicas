@@ -1,0 +1,31 @@
+API significa Application Programming Interface (Interface de Programação de Aplicações). De forma bem simples, pense nela como um "garçom" no restaurante:
+
+Você (o cliente/aplicação) faz um pedido (uma solicitação).
+
+O garçom (a API) pega esse pedido, leva para a cozinha (o servidor/sistema externo).
+
+A cozinha prepara o que foi pedido (processa os dados).
+
+O garçom traz a resposta de volta para você (entrega a informação na sua tela).
+
+Na prática, uma API é um conjunto de regras e padrões que permite que diferentes softwares conversem entre si sem precisar saber como o outro foi construído por dentro.
+
+Como funcionam as APIs?
+O funcionamento de uma API baseia-se em um ciclo simples de Requisição e Resposta através da internet (geralmente usando o protocolo HTTP):
+
+A Requisição (Request): Seu aplicativo envia uma mensagem para um servidor pedindo algo específico. Essa requisição geralmente inclui:
+
+Endpoint: O endereço (URL) para onde o pedido é enviado (ex: [api.clima.com/previsao](https://api.clima.com/previsao)).
+
+Método HTTP: O que você quer fazer (os mais comuns são GET para buscar dados, POST para enviar novos dados, PUT para atualizar e DELETE para apagar).
+
+O Processamento: O servidor recebe o pedido, valida as informações (verifica se você tem permissão, por exemplo) e busca os dados necessários.
+
+A Resposta (Response): O servidor devolve a resposta para o seu aplicativo, normalmente estruturada em formatos leves e fáceis de ler, como JSON ou XML.
+
+Exemplos do Dia a Dia
+Login com redes sociais: Quando você entra em um site novo e clica em "Entrar com o Google", o site usa a API do Google para confirmar quem você é, sem que o site precise ver ou salvar sua senha do Google.
+
+Aplicativos de clima: O aplicativo de previsão do tempo no seu celular não mede a temperatura sozinho; ele usa uma API para buscar os dados meteorológicos atualizados de um servidor especializado.
+
+Pagamentos online (Pix/Cartão): Lojas virtuais usam APIs de gateways de pagamento (como Stripe ou Mercado Pago) para processar transações de forma segura em segundos.
